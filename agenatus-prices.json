@@ -1,0 +1,188 @@
+{
+  "version": "2026-09-05.1",
+  "sources": {
+    "openai": "https://developers.openai.com/api/docs/pricing",
+    "xai": "https://docs.x.ai/docs/models"
+  },
+  "openai": [
+    {
+      "model": "gpt-6-astra",
+      "effectiveAt": "2026-09-05",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "shortContext": {
+        "inputUsdPerMillion": "10.00",
+        "cachedInputUsdPerMillion": "1.00",
+        "cacheWriteUsdPerMillion": "12.50",
+        "outputUsdPerMillion": "50.00"
+      },
+      "longContext": {
+        "thresholdInputTokens": 272000,
+        "prices": {
+          "inputUsdPerMillion": "20.00",
+          "cachedInputUsdPerMillion": "2.00",
+          "cacheWriteUsdPerMillion": "25.00",
+          "outputUsdPerMillion": "75.00"
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "aliases": ["gpt-5.6"],
+      "effectiveAt": "2026-09-05",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "shortContext": {
+        "inputUsdPerMillion": "4.00",
+        "cachedInputUsdPerMillion": "0.40",
+        "cacheWriteUsdPerMillion": "5.00",
+        "outputUsdPerMillion": "20.00"
+      },
+      "longContext": {
+        "thresholdInputTokens": 272000,
+        "prices": {
+          "inputUsdPerMillion": "8.00",
+          "cachedInputUsdPerMillion": "0.80",
+          "cacheWriteUsdPerMillion": "10.00",
+          "outputUsdPerMillion": "30.00"
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "effectiveAt": "2026-09-05",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "shortContext": {
+        "inputUsdPerMillion": "2.00",
+        "cachedInputUsdPerMillion": "0.20",
+        "cacheWriteUsdPerMillion": "2.50",
+        "outputUsdPerMillion": "12.00"
+      },
+      "longContext": {
+        "thresholdInputTokens": 272000,
+        "prices": {
+          "inputUsdPerMillion": "4.00",
+          "cachedInputUsdPerMillion": "0.40",
+          "cacheWriteUsdPerMillion": "5.00",
+          "outputUsdPerMillion": "18.00"
+        }
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "effectiveAt": "2026-09-05",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "shortContext": {
+        "inputUsdPerMillion": "0.20",
+        "cachedInputUsdPerMillion": "0.02",
+        "cacheWriteUsdPerMillion": "0.25",
+        "outputUsdPerMillion": "1.20"
+      },
+      "longContext": {
+        "thresholdInputTokens": 272000,
+        "prices": {
+          "inputUsdPerMillion": "0.40",
+          "cachedInputUsdPerMillion": "0.04",
+          "cacheWriteUsdPerMillion": "0.50",
+          "outputUsdPerMillion": "1.80"
+        }
+      }
+    },
+    {
+      "model": "gpt-5.5",
+      "effectiveAt": "2026-07-14",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "shortContext": {
+        "inputUsdPerMillion": "5.00",
+        "cachedInputUsdPerMillion": "0.50",
+        "outputUsdPerMillion": "30.00"
+      },
+      "longContext": {
+        "thresholdInputTokens": 272000,
+        "prices": {
+          "inputUsdPerMillion": "10.00",
+          "cachedInputUsdPerMillion": "1.00",
+          "outputUsdPerMillion": "45.00"
+        }
+      }
+    },
+    {
+      "model": "gpt-5.4",
+      "effectiveAt": "2026-07-14",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "shortContext": {
+        "inputUsdPerMillion": "2.50",
+        "cachedInputUsdPerMillion": "0.25",
+        "outputUsdPerMillion": "15.00"
+      },
+      "longContext": {
+        "thresholdInputTokens": 272000,
+        "prices": {
+          "inputUsdPerMillion": "5.00",
+          "cachedInputUsdPerMillion": "0.50",
+          "outputUsdPerMillion": "22.50"
+        }
+      }
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "effectiveAt": "2026-07-14",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "shortContext": {
+        "inputUsdPerMillion": "0.75",
+        "cachedInputUsdPerMillion": "0.075",
+        "outputUsdPerMillion": "4.50"
+      }
+    },
+    {
+      "model": "gpt-5.3-codex",
+      "proxyAliases": ["gpt-5.3-codex-spark"],
+      "effectiveAt": "2026-07-14",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "shortContext": {
+        "inputUsdPerMillion": "1.75",
+        "cachedInputUsdPerMillion": "0.175",
+        "outputUsdPerMillion": "14.00"
+      }
+    }
+  ],
+  "xai": [
+    {
+      "model": "grok-4.5",
+      "aliases": ["grok-4.5-build", "grok-4.5-build-plan"],
+      "effectiveAt": "2026-07-25",
+      "sourceUrl": "https://docs.x.ai/docs/models",
+      "note": "Best-effort band from the sibling 4.x row; Grok turns are provider-reported, this row is the fallback.",
+      "shortContext": {
+        "inputUsdPerMillion": "12.50",
+        "cachedInputUsdPerMillion": "2.00",
+        "outputUsdPerMillion": "25.00"
+      },
+      "longContext": {
+        "thresholdInputTokens": 200000,
+        "prices": {
+          "inputUsdPerMillion": "25.00",
+          "cachedInputUsdPerMillion": "4.00",
+          "outputUsdPerMillion": "50.00"
+        }
+      }
+    },
+    {
+      "model": "grok-build-0.1",
+      "aliases": ["grok-build", "grok-code-fast-1", "grok-code-fast"],
+      "effectiveAt": "2026-07-25",
+      "sourceUrl": "https://docs.x.ai/docs/models",
+      "shortContext": {
+        "inputUsdPerMillion": "10.00",
+        "cachedInputUsdPerMillion": "2.00",
+        "outputUsdPerMillion": "20.00"
+      },
+      "longContext": {
+        "thresholdInputTokens": 200000,
+        "prices": {
+          "inputUsdPerMillion": "20.00",
+          "cachedInputUsdPerMillion": "4.00",
+          "outputUsdPerMillion": "40.00"
+        }
+      }
+    }
+  ]
+}
