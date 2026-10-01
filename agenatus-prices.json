@@ -1,8 +1,8 @@
 {
-  "version": "2026-09-24.1",
+  "version": "2026-10-01.1",
   "sources": {
     "openai": "https://developers.openai.com/api/docs/pricing",
-    "xai": "https://docs.x.ai/docs/models"
+    "xai": "https://docs.x.ai/developers/pricing"
   },
   "openai": [
     {
@@ -22,6 +22,26 @@
           "cachedInputUsdPerMillion": "2.00",
           "cacheWriteUsdPerMillion": "25.00",
           "outputUsdPerMillion": "75.00"
+        }
+      }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "effectiveAt": "2026-09-29",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "shortContext": {
+        "inputUsdPerMillion": "2.00",
+        "cachedInputUsdPerMillion": "0.10",
+        "cacheWriteUsdPerMillion": "2.50",
+        "outputUsdPerMillion": "10.00"
+      },
+      "longContext": {
+        "thresholdInputTokens": 272000,
+        "prices": {
+          "inputUsdPerMillion": "4.00",
+          "cachedInputUsdPerMillion": "0.20",
+          "cacheWriteUsdPerMillion": "5.00",
+          "outputUsdPerMillion": "15.00"
         }
       }
     },
@@ -218,7 +238,7 @@
         "grok-4.6-build-plan"
       ],
       "effectiveAt": "2026-09-05",
-      "sourceUrl": "https://docs.x.ai/docs/models",
+      "sourceUrl": "https://docs.x.ai/developers/pricing",
       "shortContext": {
         "inputUsdPerMillion": "2.00",
         "cachedInputUsdPerMillion": "0.50",
@@ -240,7 +260,7 @@
         "grok-4.5-build-plan"
       ],
       "effectiveAt": "2026-09-05",
-      "sourceUrl": "https://docs.x.ai/docs/models",
+      "sourceUrl": "https://docs.x.ai/developers/pricing",
       "shortContext": {
         "inputUsdPerMillion": "2.00",
         "cachedInputUsdPerMillion": "0.30",
@@ -258,7 +278,7 @@
     {
       "model": "grok-4.3",
       "effectiveAt": "2026-09-05",
-      "sourceUrl": "https://docs.x.ai/docs/models",
+      "sourceUrl": "https://docs.x.ai/developers/pricing",
       "shortContext": {
         "inputUsdPerMillion": "1.25",
         "cachedInputUsdPerMillion": "0.20",
@@ -281,7 +301,7 @@
         "grok-code-fast"
       ],
       "effectiveAt": "2026-09-05",
-      "sourceUrl": "https://docs.x.ai/docs/models",
+      "sourceUrl": "https://docs.x.ai/developers/pricing",
       "shortContext": {
         "inputUsdPerMillion": "1.00",
         "cachedInputUsdPerMillion": "0.20",
