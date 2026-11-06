@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-01.1",
+  "version": "2026-11-06.1",
   "sources": {
     "openai": "https://developers.openai.com/api/docs/pricing",
     "xai": "https://docs.x.ai/developers/pricing"
@@ -42,6 +42,26 @@
           "cachedInputUsdPerMillion": "0.20",
           "cacheWriteUsdPerMillion": "5.00",
           "outputUsdPerMillion": "15.00"
+        }
+      }
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "effectiveAt": "2026-10-26",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "shortContext": {
+        "inputUsdPerMillion": "1.00",
+        "cachedInputUsdPerMillion": "0.05",
+        "cacheWriteUsdPerMillion": "1.25",
+        "outputUsdPerMillion": "5.00"
+      },
+      "longContext": {
+        "thresholdInputTokens": 272000,
+        "prices": {
+          "inputUsdPerMillion": "2.00",
+          "cachedInputUsdPerMillion": "0.10",
+          "cacheWriteUsdPerMillion": "2.50",
+          "outputUsdPerMillion": "7.50"
         }
       }
     },
